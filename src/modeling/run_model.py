@@ -31,6 +31,10 @@ import pandas as pd
 import torch
 import tqdm
 
+package_path = "/kaggle/input/takeokikkuchibrest4"
+import sys 
+sys.path.append(package_path)
+
 import src.utilities.pickling as pickling
 import src.utilities.tools as tools
 import src.modeling.models as models
