@@ -21,6 +21,10 @@
 # along with breast_cancer_classifier.  If not, see <http://www.gnu.org/licenses/>.
 # ==============================================================================
 
+package_path = "/kaggle/input/takeokikkuchibrest4"
+import sys 
+sys.path.append(package_path)
+
 import argparse
 
 import src.cropping.crop_mammogram as crop_mammogram
