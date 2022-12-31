@@ -23,6 +23,10 @@
 """
 Runs search_windows_and_centers.py and extract_centers.py in the same directory
 """
+package_path = "/kaggle/input/takeokikkuchibrest4"
+import sys 
+sys.path.append(package_path)
+
 import argparse
 import numpy as np
 import os
