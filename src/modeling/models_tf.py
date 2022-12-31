@@ -26,6 +26,10 @@ TensorFlow model definition and utils
 
 import tensorflow as tf
 
+package_path = "/kaggle/input/takeokikkuchibrest4"
+import sys 
+sys.path.append(package_path)
+
 import src.modeling.layers_tf as layers
 import src.utilities.tf_utils as tf_utils
 from src.constants import VIEWS
