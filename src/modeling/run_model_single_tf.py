@@ -28,6 +28,10 @@ import numpy as np
 import json
 import tensorflow as tf
 
+package_path = "/kaggle/input/takeokikkuchibrest4"
+import sys 
+sys.path.append(package_path)
+
 import src.utilities.pickling as pickling
 import src.utilities.tf_utils as tf_utils
 import src.utilities.tools as tools
