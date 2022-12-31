@@ -20,7 +20,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with breast_cancer_classifier.  If not, see <http://www.gnu.org/licenses/>.
 # ==============================================================================
-package_path = '/kaggle/input/nyukat-breast-cancer-classifier-2'
+package_path = '/kaggle/input/takeokikkuchibrest3
 import sys 
 sys.path.append(package_path)
 
