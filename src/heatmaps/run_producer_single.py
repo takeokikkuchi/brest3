@@ -26,6 +26,10 @@ Generates benign and malignant heatmaps for cropped images using patch classifie
 import argparse
 import random
 
+package_path = "/kaggle/input/takeokikkuchibrest4"
+import sys 
+sys.path.append(package_path)
+
 import src.data_loading.loading as loading
 import src.utilities.pickling as pickling
 import src.utilities.saving_images as saving_images
