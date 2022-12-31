@@ -33,6 +33,10 @@ from tensorflow.contrib import slim
 from nets.densenet import densenet121, densenet_arg_scope
 import torch
 
+package_path = "/kaggle/input/takeokikkuchibrest4"
+import sys 
+sys.path.append(package_path)
+
 import src.data_loading.loading as loading
 import src.utilities.pickling as pickling
 import src.utilities.saving_images as saving_images
