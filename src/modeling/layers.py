@@ -28,6 +28,10 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torchvision.models.resnet import conv3x3
 
+package_path = "/kaggle/input/takeokikkuchibrest4"
+import sys 
+sys.path.append(package_path)
+
 from src.constants import VIEWS
 
 
