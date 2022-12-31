@@ -32,6 +32,10 @@ import tqdm
 import torch
 import torch.nn.functional as F
 
+package_path = "/kaggle/input/takeokikkuchibrest4"
+import sys 
+sys.path.append(package_path)
+
 import src.heatmaps.models as models
 import src.data_loading.loading as loading
 import src.utilities.pickling as pickling
