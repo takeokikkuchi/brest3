@@ -29,6 +29,10 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+package_path = "/kaggle/input/takeokikkuchibrest4"
+import sys 
+sys.path.append(package_path)
+
 import src.modeling.layers as layers
 from src.constants import VIEWS, VIEWANGLES
 
